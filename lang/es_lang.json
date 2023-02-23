@@ -1,0 +1,41 @@
+{
+    "extracting_bots": "Extrayendo bots ...",
+    "bots_extracted": "Bots extraidos: {0}",
+    "do_you_wish_to_continue": "¿Deseas continuar? (YyNn): ",
+
+    "start_with_bans": "Iniciando con los baneos...",
+    "ban": "Vetando a ",
+
+    "waiting_seconds" : "Esperando {0} segundos para continuar, precaución con el sistema de antiflood de Twitch",
+    "starting_again": "De nuevo en accion VIEJO!",
+    "starting": "Iniciando...",
+    "exiting": "Saliendo...",
+    "program_exiting": "Saliendo del programa...",
+    "invalid_input": "Entrada invalida, por favor selecciona una opcion valida.",
+
+    "scanning_cdn": "Escaneando los CDNs ...",
+    "no_cdn": "No se ha encontrado CDN, por favor añade una ruta o desactiva la funcion",
+    "no_files": "No se han encontrado archivos",
+
+    "ban_messages": [],
+
+    "menu_select": "Selecciona una opcion: ",
+    "menu_messages": [
+        {
+            "numberation": "1",
+            "option": "Extrar bots desde la API de Twitch Insights y banear"
+        },
+        {
+            "numberation": "2",
+            "option": "Solo extrar bots desde la API"
+        },
+        {
+            "numberation": "3",
+            "option": "Banear bots desde un archivo"
+        },
+        {
+            "numberation": "4",
+            "option": "Salir"
+        }
+    ]
+}

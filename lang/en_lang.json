@@ -1,0 +1,42 @@
+
+{
+    "extracting_bots": "Extracting bots ...",
+    "bots_extracted": "Bots extracted: {0}",
+    "do_you_wish_to_continue": "Do you wish to continue? (YyNn): ",
+
+    "start_with_bans": "Starting with bans...",
+    "ban": "Banning ",
+
+    "waiting_seconds" : "Waiting {0} seconds to continue, be careful with the Twitch antiflood system",
+    "starting_again": "Back in action OLD!",
+    "starting": "Starting...",
+    "exiting": "Exiting...",
+    "program_exiting": "Exiting the program...",
+    "invalid_input": "Invalid input, please select a valid option.",
+
+    "scanning_cdn": "Scanning the CDNs ...",
+    "no_cdn": "No CDN found, please add a path or disable the function",
+    "no_files": "No files found",
+
+    "ban_messages": [],
+
+    "menu_select": "Select an option: ",
+    "menu_messages": [
+        {
+            "numberation": "1",
+            "option": "Extract bots from the Twitch Insights API and ban"
+        },
+        {
+            "numberation": "2",
+            "option": "Only extract bots from the API"
+        },
+        {
+            "numberation": "3",
+            "option": "Ban bots from a file"
+        },
+        {
+            "numberation": "4",
+            "option": "Exit"
+        }
+    ]
+}

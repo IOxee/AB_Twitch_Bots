@@ -1,0 +1,35 @@
+{
+    "lang": "es",
+    "showDebugPrints": "true",
+    "delayBeforeStart": 5, 
+
+    "manyBansBeforeWaiting": 80,
+    "secondsToWaitAfterXBans": 60,
+
+    "manyBansAntiflood": 20,
+    "secondsToWaitAfterXBansAntiflood": 10,
+
+    "keyToPressAfterCommand": "enter",
+    "alphanumericCharacterToUse": "/",
+    "executeCommands": [
+        "ban "
+    ],
+
+    "//comment": "Both, OnlyLocal, OnlyCDN",
+    "typeScanning": "Both",
+    
+    "whitelist": "content/whitelist",
+
+    "files": [
+        "content/output_file"
+    ],
+
+    "active_scanning_cdn": "None",
+    "cdn": [
+        
+    ],
+    "youWantCloseAfterFinsihed": "False",
+    "processesToKill":[
+        "chrome.exe"
+    ]
+}
