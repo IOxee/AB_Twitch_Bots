@@ -1,35 +1,22 @@
 {
     "lang": "es",
     "showDebugPrints": "true",
-    "delayBeforeStart": 5, 
-
+    "delayBeforeStart": 5,
+    "//": "Six months in seconds, calculated as 6 months * 30.44 days per month * 24 hours * 60 minutes * 60 seconds",
+    "hasRecentlyActivity": 15780096.000000002,
     "manyBansBeforeWaiting": 80,
     "secondsToWaitAfterXBans": 60,
-
     "manyBansAntiflood": 20,
     "secondsToWaitAfterXBansAntiflood": 10,
-
     "keyToPressAfterCommand": "enter",
     "alphanumericCharacterToUse": "/",
-    "executeCommands": [
-        "ban "
-    ],
-
-    "//comment": "Both, OnlyLocal, OnlyCDN",
+    "executeCommands": ["ban "],
+    "//comment": "Can be Both, OnlyLocal, or OnlyCDN",
     "typeScanning": "Both",
-    
     "whitelist": "content/whitelist",
-
-    "files": [
-        "content/output_file"
-    ],
-
+    "files": ["content/output_file"],
     "active_scanning_cdn": "None",
-    "cdn": [
-        
-    ],
+    "cdn": [],
     "youWantCloseAfterFinsihed": "False",
-    "processesToKill":[
-        "chrome.exe"
-    ]
+    "processesToKill": ["chrome.exe"]
 }

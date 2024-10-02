@@ -37,3 +37,8 @@ Python Packages:
 
 ## Configuration
 The program configuration is read from a JSON file in the program's configuration directory. The configuration file includes options such as the whitelist of allowed users, the list of commands to block bots, the option to scan CDN files and other important parameters.
+
+## Changelog - V(1.1.0)
+- Added the option to set how many days from the date of extraction it takes for the bot to be considered malicious.
+- Updated requirements.txt removed required versions.
+- Added more moderator bots to the whitelist.
